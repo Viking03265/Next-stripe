@@ -1,0 +1,44 @@
+.body {
+  background-color: white;
+  color: #333;
+}
+
+.wrapper {
+  margin-top: 63px;
+}
+
+.paginate {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.paginate li {
+  display: inline;
+  list-style: none;
+  cursor: pointer;
+}
+
+.paginate li > a {
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.button,
+.paginate li>a:hover {
+  background-color: #6772e5;
+  color: white;
+}
+
+.button {
+  padding: 12px 22px;
+  margin: 12px 12px;
+  cursor: pointer;
+}
+
+.nav_container {
+  display: flex;
+  background-color: #6772e5;
+  color: white;
+  padding: 12px 24px;
+}
